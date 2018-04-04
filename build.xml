@@ -7,6 +7,7 @@
 <pathelement location="./MyLibraries/selenium-server-standalone-3.9.0.jar"/>
 <pathelement location="./MyLibraries/hamcrest-core-1.3.jar"/>
 
+	
 </path>
 <target name="compile">
 <mkdir dir="${result.javaclasses.dir}"/>
@@ -17,7 +18,7 @@
 </classpath>
 </javac>
 </target>
-<target name="test" depends="compile">
+<target name="testfase" depends="compile">
 <junit printsummary="true" haltonfailure="true" fork="true">
 <classpath>
 <path refid="Library"></path>
