@@ -6,7 +6,7 @@
 <pathelement location="./MyLibraries/junit-4.12.jar"/>
 <pathelement location="./MyLibraries/selenium-server-standalone-3.9.0.jar"/>
 <pathelement location="./MyLibraries/hamcrest-core-1.3.jar"/>
-
+<sojood git>
 	
 </path>
 <target name="compile">
